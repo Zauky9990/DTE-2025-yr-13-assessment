@@ -1,0 +1,348 @@
+/* =============================
+	 Stylesheet for Rosmini website
+	 File:	 styles.css
+	 Author: Zachary Williams
+	 Date:	 April 2024
+	 ============================= */
+
+     .navbar {
+        background-color:#0054a2;
+        width:100%;
+        position:fixed;
+        border-bottom:2px solid blue;
+        z-index: 5;
+        
+    }
+    
+    .cutofffix {
+        margin-top:90px;
+    }
+    
+    .hovereffects {
+        z-index:6;
+    }
+    
+    .hovereffects:hover {
+        background-color:blue;
+        transition: background-color 2s;
+        z-index:4;
+    }
+    
+    .buttons1 {
+        display: block;
+        width: 170px;
+        height: 40px;
+        margin: 10px 0 0 0;
+        padding: 0px;
+        color: #003311;
+        background-color: white;
+        border: 3px solid #003311;
+        font-size: 15pt;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 4px 6px #333333;
+        text-decoration: none
+        transition: width 2s, height 4s;
+    }
+    
+    .buttons1:hover {
+        background-color:#0394fc;
+        width:180px;
+        height:50px;
+        transition: width 1s, height 1s, background-color 2s;
+    }
+    
+    .logindets {
+        margin-top:20px;
+    }
+    
+    .navb {
+        padding: 10px 10px;
+    }
+    
+    .navb li {
+        display:inline-block;
+        margin:0 7px;
+    }
+    
+    .rosminilogo {
+        padding: 10px 10px;
+        margin-left:90px;
+    }
+    
+    .contentcontainer {
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:100px;
+        margin-bottom:100px;
+        width:1000px;
+        color:#0054a2;
+    }
+    
+    .carousel {
+        width:1600px;
+        margin-left:75px;
+    }
+    
+    .homecontent {
+        color:#0054a2;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    
+    
+    .sportscontainer {
+        display:flex;
+        justify-content:center;
+        background-color:#0054a2;
+        padding:20px 20px 20px;
+        margin-top:95px;
+    }
+    
+    .footer-columns {
+        display:flex;
+        justify-content:center;
+        background-color:#0054a2;
+        align-content:center;
+        color:#4D83C6;
+        padding:25px;
+        
+    }
+    
+    .footer-column2 {
+        padding:50px;
+    }
+    
+    .motto {
+        margin-right:-90px;
+        text-align:center;
+    }
+    
+    .container {
+        display: block;
+        width: 170px;
+        margin-left: 180px;
+        padding: 0px;
+        color: #003311;
+        background-color: white;
+        border: 3px solid #003311;
+        font-size: 14pt;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 4px 6px #333333;
+        text-decoration: none
+        transition: width 2s, height 4s;
+    }
+    
+    .staffcutofffix {
+        margin-top:120px;
+    }
+    .sportsimg {
+        margin:20px;
+        box-shadow: 8px 10px 12px #333333;
+        z-index:3;
+    }
+    
+    .sportsimg:hover {
+        color:blue;
+        transition: width 1s, height 2s, background-color 2s;
+        z-index:4;
+    }
+    
+    .dterow {
+        display:flex;
+        align-items:center;
+        margin-left:650px;
+        margin-bottom:30px;
+    }
+    
+    .geographyrow {
+        display:flex;
+        align-items:center;
+        margin-left:350px;
+        margin-bottom:50px;
+    }
+    
+    .staffimg {
+        margin:20px;
+        box-shadow: 8px 10px 12px #333333;
+    }
+    
+    
+    .loginbutton1 {
+        margin-top:20px;
+        margin-left:1700px;
+    }
+    .myBtn {
+        display: block;
+        width: 170px;
+        height:50px;
+        padding: 0px;
+        color: #003311;
+        background-color: white;
+        border: 3px solid #003311;
+        font-size: 14pt;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 4px 6px #333333;
+        text-decoration: none
+        transition: width 2s, height 4s;
+    }
+    
+    
+    .stafftitle {
+        margin-left:900px;
+    }
+    
+    .cards {
+        margin:20px;
+        background-color:#0054a2;
+        border-radius:20px;
+    }
+    
+    .line {
+        background-color:#4D83C6;
+        color:#4D83C6;
+    }
+    
+    .stafftext {
+        margin-left:90px;
+    }
+    
+    
+    .label{
+        width:100px;
+          text-align:right;
+        display:inline-block;
+        vertical-align:top;
+        font-family: 'Arial Black', sans-serif;
+    }
+    
+    .field, textarea{
+        margin-left:5px;
+        border-radius:5px;
+        background-color:#ffccff;
+        font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        width:200px;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    .modal-content {
+      background-color: #ffffff;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 600px;
+      margin-top:100px;
+    }
+    
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .formimg {
+        width:350px;
+        margin-left:100px;
+        padding:20px;
+    }
+    
+    .admincontent {
+        margin-left:800px;
+        margin-top:120px;
+        margin-bottom:100px;
+    }
+    
+    .admintext {
+        margin-left:90px;
+    }
+    
+    .incorrectmessage {
+        margin-top:120px;
+        text-align:center;
+    }
+    
+    .incorrectmessagetxt {
+        padding:50px;
+    }
+    
+    .footer-column1 {
+        color:white;
+    }
+    
+    .footerlinks {
+        color:white;
+    }
+    
+    @media only screen and (max-width: 390px) {
+      .navbar {
+        width:390px;
+        margin-left:auto;
+        margin-right:auto;
+        position:static;
+        margin-bottom:-50px;
+      }
+      .cutofffix {
+        width:390px
+        
+      }
+      .carousel {
+        margin-top:300px
+        width:100px;
+        margin-left:0px;
+        display:none;
+      }
+      .homecontent {
+        width:300px;
+        margin-left:20px;
+      }
+      .contentcontainer {
+        margin-top:10px;
+        width:300px;
+        margin-left:50px;
+        margin-right:50px;
+      }
+      .footer-columns {
+        width:390px;
+        margin-left:auto;
+        margin-right:auto;
+      }
+       .footer-column1 {
+        margin-left:0px;
+        margin-right:0px;
+      }
+       .footer-column2 {
+           display:none;
+      }
+       .sportscontainer {
+        width:390px;
+      }
+       .staffcontainer {
+        display:flex;
+        flex-direction:column;
+        width:390px;
+        margin-left:0px;
+        }
+    }
