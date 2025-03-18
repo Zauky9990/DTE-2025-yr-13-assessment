@@ -6,14 +6,19 @@
 	 ============================= */
 
      .navbar {
-        background-color:#0054a2;
+        background-color:black;
         width:100%;
         position:fixed;
-        border-bottom:2px solid blue;
+        border-bottom:2px solid black;
         z-index: 5;
         
     }
     
+    .title {
+        text-align: center;
+        color: black;
+    }
+
     .cutofffix {
         margin-top:90px;
     }
@@ -30,7 +35,7 @@
     
     .buttons1 {
         display: block;
-        width: 170px;
+        width: 205px;
         height: 40px;
         margin: 10px 0 0 0;
         padding: 0px;
@@ -42,13 +47,13 @@
         text-align: center;
         border-radius: 10px;
         box-shadow: 2px 4px 6px #333333;
-        text-decoration: none
+        text-decoration: none;
         transition: width 2s, height 4s;
     }
     
     .buttons1:hover {
         background-color:#0394fc;
-        width:180px;
+        width:210px;
         height:50px;
         transition: width 1s, height 1s, background-color 2s;
     }
@@ -104,7 +109,7 @@
     .footer-columns {
         display:flex;
         justify-content:center;
-        background-color:#0054a2;
+        background-color:black;
         align-content:center;
         color:#4D83C6;
         padding:25px;
@@ -116,8 +121,9 @@
     }
     
     .motto {
-        margin-right:-90px;
+        padding-left: 50px;
         text-align:center;
+        color:white;
     }
     
     .container {
@@ -134,8 +140,8 @@
         text-align: center;
         border-radius: 10px;
         box-shadow: 2px 4px 6px #333333;
-        text-decoration: none
-        transition: width 2s, height 4s;
+        text-decoration: none;
+        transition: width 2s, height 4s;        
     }
     
     .staffcutofffix {
@@ -145,6 +151,12 @@
         margin:20px;
         box-shadow: 8px 10px 12px #333333;
         z-index:3;
+    }
+
+    .sportsimg1 {
+        padding-left:50px;
+        box-shadow: 8px 10px 12px #333333;
+        
     }
     
     .sportsimg:hover {
@@ -191,7 +203,7 @@
         text-align: center;
         border-radius: 10px;
         box-shadow: 2px 4px 6px #333333;
-        text-decoration: none
+        text-decoration: none;
         transition: width 2s, height 4s;
     }
     
@@ -309,7 +321,7 @@
         
       }
       .carousel {
-        margin-top:300px
+        margin-top:300px;
         width:100px;
         margin-left:0px;
         display:none;

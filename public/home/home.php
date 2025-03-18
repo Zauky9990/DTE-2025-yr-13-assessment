@@ -25,30 +25,19 @@
 		
      <!-- Page content -->
 	<div class="contentcontainer">
-		<p class="homecontent">Rosmini College is a Catholic Boys’ School founded by the Rosminian order to provide a Catholic education to young men on Auckland’s North Shore. We aim to shape them into well-rounded young men ready to leave school who are able to make a positive contribution to society and are empowered to serve others by living out the founder’s maxims.
+		<h2 class="title"><b>Homelessness in our community</b></h2>
+		<img src="../images/homelesscoverimg.webp" class="sportsimg" width="950" height="550">
+		<p class="homecontent"> 
+		Homelessness is a growing issue that affects millions of people worldwide, and raising awareness about it is crucial in fostering understanding and compassion. Many individuals experiencing homelessness are often seen as invisible or stigmatized, but their struggles are real and varied, ranging from economic hardship and mental health issues to addiction and systemic failures. By increasing awareness, we can begin to break down stereotypes, advocate for policy changes, and create more support systems for those in need. It is essential to remember that homelessness is not a choice, and everyone deserves access to safe, stable housing and the opportunity to rebuild their lives. Encouraging empathy, community involvement, and a commitment to addressing the root causes of homelessness can help reduce its prevalence and ultimately create a more equitable society for all.
 		</p>
 
+		<h2 class="title">Travelling pots (Rosmini)</h2>
+		<img src="../images/Travelling-pots1.jpg" class="sportsimg1" width="auto" height="550">
 		<p class="homecontent">
-		Our Mission: Rosmini College supports and develops well-rounded young men while keeping true to the maxims of Antonio Rosmini.  A holistic education in the Rosminian tradition that fosters a genuine encounter with Christ.
+		"Travelling Pots" is a joint initiative by the Young Vinnies groups of Rosmini College and Carmel College in Auckland, where students prepare and package meals to be distributed to individuals and families in need, often through Vinnies food banks.
 		</p>
-		<p class="homecontent">
-		Our Vision: Christ-centred young men who have the values, attitudes, knowledge and skills to fulfil their life and be empowered to serve others.
-		</p>
-		<p class="homecontent">
-		Our Values: Dignity. Integrity. Fairness. Charity. Justice
-		</p>
-		<p class="homecontent">
-		Our Motto: Charity fulfils the law.
-		</p>
-		<p class="homecontent">
-		Treaty of Waitangi: Rosmini College is committed to the principles of the Treaty of Waitangi and actively supports and encourages the achievement of its Maori pupils and fosters Maori culture.
-		</p>
-		<p class="homecontent">
-		Special Character: Rosmini College is a learning community that requires each student to pursue his fullest potential in spiritual, academic, social, cultural and co-curricular pursuits. The school will equip each student with the desire to keep the Law of Christ;  
-		</p>
-		<p class="homecontent">
-		“Love the Lord your God with your whole heart and your neighbour as yourself.”
-		</p>
+		
+
 	</div>
 	<?php include(SHARED_PATH . '/footer.php') ?>  <!-- Including the footer -->
 </div>
