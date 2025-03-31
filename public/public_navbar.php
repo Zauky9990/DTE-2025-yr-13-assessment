@@ -21,8 +21,8 @@
 
 		<ul class="navb">	         <!-- Navbar is split into 3 sections -->
 			<li><a href="../home/home.php"><div class="buttons1"><p><b>Home</b></p></div></a></li>
-			<li><a href="../sports/sports.php"><div class="buttons1"><p><b>Rosmini Involvement</b></p></div></a></li>
-			<li><a href="../staff/staff.php"><div class="buttons1"><p><b>Resources</b></p></div></a></li>      <!-- 1 being first half of pages and links -->
+			<li><a href="../rosmini/rosmini.php"><div class="buttons1"><p><b>Rosmini Involvement</b></p></div></a></li>
+			<li><a href="../resources/resources.php"><div class="buttons1"><p><b>Resources</b></p></div></a></li>      <!-- 1 being first half of pages and links -->
 			<li><a href="../home/home.php"><div class="buttons1"><p><b>Support</b></p></div></a></li>
 		</ul>
 		

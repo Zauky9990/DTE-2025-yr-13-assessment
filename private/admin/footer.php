@@ -22,15 +22,9 @@
         </div>
         <div class="footer-column2">
             <ul><a href="../home/home.php" class="footerlinks"><h3>Home</h3></a></ul>
-			<ul><a href="../sports/sports.php" class="footerlinks"><h3>Sports</h3></a></ul>
-			<ul><a href="../staff/staff.php" class="footerlinks"><h3>Staff</h3></a></ul>
+			<ul><a href="../rosmini/rosmini.php" class="footerlinks"><h3>Rosmini</h3></a></ul>
+			<ul><a href="../resources/resources.php" class="footerlinks"><h3>Resources</h3></a></ul>
 			<ul><a href="../home/home.php" class="footerlinks"><h3>Support</h3></a></ul>          <!-- Column 2 and 3 being a sort of nav bar if the user does not want to use the main nav bar -->
-        </div>
-        <div class="footer-column2">
-            <ul><a href="../home/home.php" class="footerlinks"><h3>Learning</h3></a></ul>
-            <ul><a href="../home/home.php" class="footerlinks"><h3>News</h3></a></ul>
-			<ul><a href="../home/home.php" class="footerlinks"><h3>Enrolment</h3></a></ul>      <!-- Due to me having a sticky header, I don't think that this navbar is necessary, but it is in the criteria. -->
-			<ul><a href="../home/home.php" class="footerlinks"><h3>Contact Us</h3></a></ul>
         </div>
     </div>
   </footer>
