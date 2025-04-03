@@ -44,28 +44,8 @@
 		</p>
 	</div>
 	<?php include(SHARED_PATH . '/footer.php') ?>  <!-- Including the footer -->
-	<div class="loadingscreen">
 
   <!-- Loading Screen -->
-  <div id="loading-screen">
-    <div class="loader"></div>
-  </div>
-
-  <!-- Main content of the website -->
-  <div id="content">
-    <h1>Welcome to My Website</h1>
-    <p>This is the main content of the page.</p>
-  </div>
-
-  <script>
-    // JavaScript to hide the loading screen once the page is loaded
-    window.addEventListener('load', () => {
-      document.getElementById('loading-screen').style.display = 'none';
-      document.getElementById('content').style.display = 'block';
-    });
-  </script>
-
-	</div>
 </html>
 </div>
 </html>

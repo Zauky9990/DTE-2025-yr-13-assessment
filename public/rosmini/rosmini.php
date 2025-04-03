@@ -9,7 +9,7 @@
 
 <html lang="en">
   <head>
-    <title>Homelessness awareness - More info</title>
+    <title>Homelessness awareness - Rosmini </title>
     <meta charset="UTF-8" />
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../stylesheet/styles.css">  
@@ -46,6 +46,11 @@
 		<p class="homecontent">
 		Rosmini Traveling Pots is an innovative social initiative that aims to combat food insecurity and foster community solidarity by bringing nutritious meals directly to areas where they are most needed. Named after Antonio Rosmini, a philosopher and humanitarian known for his commitment to helping others, this program operates mobile kitchens equipped to cook and serve meals in various neighborhoods, especially those facing economic challenges. The initiative not only focuses on providing free meals but also promotes social inclusion by encouraging participation from local volunteers and organizations.
 		</p>
+		<h2 class="rosminititle">How can you get involved?</h2>
+		<div class="contactusdiv">
+			<p class="homecontent1">If you want to come and get involved with travelling pots and do your bit in the community, come send an email to one of our young vinnies leaders to join the google classroom! </p>
+			<img src="../images/rosmini-2023.jpeg" class="contactimg">
+		</div>
 	</div>
 <?php include(SHARED_PATH . '/footer.php') ?> <!-- Including the footer -->
 </div>
