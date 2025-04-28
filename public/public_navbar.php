@@ -14,7 +14,8 @@
 
 <header>
 	<div class="navbar">   <!-- Container div -->
-		<div class="motto">
+	<img src="../images/logo.png" class="rosminilogo" width="120px">
+	<div class="motto">
 			<h3><b>Homelessness</b></h3>
 			<h3><b>Awareness</b></h3>
 		</div>
