@@ -133,6 +133,16 @@
         margin-right:auto;
     }
 
+    .resourcecontent2 {
+        color:white;
+        background-color:#0054a2;
+        padding:25px;
+        border-radius:20px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:30px;
+    }
+
     .homecontent1 {
         color:white;
         background-color:#0054a2;
@@ -436,9 +446,10 @@
       .homecontent {
         width:300px;
         margin-left:20px;
+        margin-top:20px;
       }
       .contentcontainer {
-        margin-top:10px;
+        margin-top:20px;
         width:300px;
         margin-left:50px;
         margin-right:50px;
