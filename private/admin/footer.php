@@ -12,13 +12,15 @@
   <footer class="footers">
     <div class="footer-columns">
         <div class="footer-column1">
-			<h3><b>Contact Details</b></h3>
+			<h3 style="margin-bottom:30px;"><b>Contact Details</b></h3>
             <p>Contact Us</p>                     <!-- Footer is divided into 3 different columns -->
 			<p>36 Dominion Street</p>
 			<p>Takapuna</p>
-			<p>Auckland, 0622</p>         <!-- Column 1 being the contact details -->
-			<p>Phone: +64 9 489 5417</p>
-			<p>admin@rosmini.school.nz</p>
+        </div>
+        <div class="footer-column2">
+          <p>Auckland, 0622</p>         <!-- Column 1 being the contact details -->
+			    <p>Phone: +64 9 489 5417</p>
+			    <p>admin@rosmini.school.nz</p>
         </div>
         <div class="footer-column2">
             <ul><a href="../home/home.php" class="footerlinks"><h3>Home</h3></a></ul>

@@ -34,7 +34,7 @@
 		</p>
 
 		<h2 class="title" style="margin-top: 40px"><b>Travelling pots (Rosmini)</b></h2>
-		<img src="../images/Travelling-pots1.jpg" class="sportsimg1" width="auto" height="550">
+		<img src="<?php echo htmlspecialchars($row9["image_url"])?>" class="sportsimg1" width="auto" height="550">
 		<p class="homecontent" style="margin-top:20px">
 		"Travelling Pots" is a joint initiative by the Young Vinnies groups of Rosmini College and Carmel College in Auckland, where students prepare and package meals to be distributed to individuals and families in need, often through Vinnies food banks.
 		</p>

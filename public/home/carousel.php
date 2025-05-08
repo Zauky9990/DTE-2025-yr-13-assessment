@@ -1,3 +1,19 @@
+<?php $sql = "SELECT * FROM images";
+ 
+    // SQL query to fetch data from the table
+  $result = $conn->query($sql);
+  $row1 = $result->fetch_assoc();
+	$row2 = $result->fetch_assoc();
+	$row3 = $result->fetch_assoc();
+	$row4 = $result->fetch_assoc();
+	$row5 = $result->fetch_assoc();
+	$row6 = $result->fetch_assoc();
+	$row7 = $result->fetch_assoc();
+	$row8 = $result->fetch_assoc();
+	$row9 = $result->fetch_assoc();
+	$row10 = $result->fetch_assoc();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,28 +29,28 @@
   </div>
    <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../images/cara1.webp" class="d-block w-100" width="550" height="500" alt="...">
+      <img src="<?php echo htmlspecialchars($row3["image_url"])?>" class="d-block w-100" width="550" height="500" alt="...">
 	  <div class="carousel-caption d-none d-md-block">
         <h5></h5>
         <p></p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../images/cara2.jpg" class="d-block w-100" width="550" height="500" alt="...">
+    <img src="<?php echo htmlspecialchars($row4["image_url"])?>" class="d-block w-100" width="550" height="500" alt="...">
 	  <div class="carousel-caption d-none d-md-block">
         <h5></h5>
         <p></p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="../images/cara3.webp" class="d-block w-100" width="550" height="500" alt="...">
+    <img src="<?php echo htmlspecialchars($row5["image_url"])?>" class="d-block w-100" width="550" height="500" alt="...">
 	  <div class="carousel-caption d-none d-md-block">
         <h5></h5>
         <p></p>
       </div>
     </div>
 	<div class="carousel-item">
-      <img src="../images/cara4.webp" class="d-block w-100" width="550" height="500" alt="...">
+  <img src="<?php echo htmlspecialchars($row6["image_url"])?>" class="d-block w-100" width="550" height="500" alt="...">
 	  <div class="carousel-caption d-none d-md-block">
         <h5></h5>
         <p></p>

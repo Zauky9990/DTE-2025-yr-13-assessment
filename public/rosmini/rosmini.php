@@ -5,7 +5,25 @@
 	 Date:	 April 2024
 	 ============================= -->
 
-     <!doctype html>
+
+<?php require_once('../../private/dbconn.php') ?>
+<?php $sql = "SELECT * FROM images";
+ 
+ // SQL query to fetch data from the table
+ 	$result = $conn->query($sql);
+ 	$row1 = $result->fetch_assoc();
+ 	$row2 = $result->fetch_assoc();
+ 	$row3 = $result->fetch_assoc();
+ 	$row4 = $result->fetch_assoc();
+ 	$row5 = $result->fetch_assoc();
+ 	$row6 = $result->fetch_assoc();
+ 	$row7 = $result->fetch_assoc();
+ 	$row8 = $result->fetch_assoc();
+ 	$row9 = $result->fetch_assoc();
+ 	$row10 = $result->fetch_assoc();
+?>
+
+	 <!doctype html>
 
 <html lang="en">
   <head>
@@ -25,17 +43,17 @@
 	<div class="sportscontainer">	
 		<div class="sportscolumn">               <!-- I have divided the sports images into 3 columns and 3 rows  -->
 			<div class="hovereffects">
-				<img src="../images/travpots.jpg" class="sportsimg" width="500" height="350"> <!-- I have made all the images the same size and externally cropped the ones that were stretched  -->
+				<img src="<?php echo htmlspecialchars($row10["image_url"])?>" class="sportsimg" width="500" height="350"> <!-- I have made all the images the same size and externally cropped the ones that were stretched  -->
 			</div>
 		</div>	
 		<div class="sportscolumn">
 			<div class="hovereffects">
-				<img src="../images/2dd6e123de0f174119b0d9f005fb7277.webp" class="sportsimg" width="500" height="350">
+				<img src="<?php echo htmlspecialchars($row1["image_url"])?>" class="sportsimg" width="500" height="350">
 			</div>
 		</div>
 		<div class="sportscolumn">
 			<div class="hovereffects">
-				<img src="../images/105551729_3148184185250303_7257899827383759481_n.webp" class="sportsimg" width="500" height="350">
+				<img src="<?php echo htmlspecialchars($row2["image_url"])?>" class="sportsimg" width="500" height="350">
 			</div>
 		</div>
 	</div>
@@ -49,7 +67,7 @@
 		<h2 class="rosminititle">How can you get involved?</h2>
 		<div class="contactusdiv">
 			<p class="homecontent1">If you want to come and get involved with travelling pots and do your bit in the community, come send an email to one of our young vinnies leaders to join the google classroom! </p>
-			<img src="../images/rosmini-2023.jpeg" class="contactimg">
+			<img src="<?php echo htmlspecialchars($row8["image_url"])?>" class="contactimg">
 		</div>
 	</div>
 <?php include(SHARED_PATH . '/footer.php') ?> <!-- Including the footer -->

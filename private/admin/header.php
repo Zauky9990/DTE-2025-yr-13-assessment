@@ -6,8 +6,6 @@
 	 ============================= -->
 
 <!--A fail safe so that that there is something in the title when the page load, if the variable isn't set.-->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
